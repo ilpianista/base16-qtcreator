@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<style-scheme version="1.0" name="Base 16 <%= @scheme %> Dark">
+<style-scheme version="1.0" name="Base 16 <%= @scheme %> Light">
 
   <!-- main colors, skipping one of attributes (backgroud/foreground) will use color from here -->
-  <style name="Text" foreground="#<%= @base["05"]["hex"] %>" background="#<%= @base["00"]["hex"] %>"/>
+  <style name="Text" foreground="#<%= @base["02"]["hex"] %>" background="#<%= @base["07"]["hex"] %>"/>
 
   <!-- it will be underlined by default -->
   <style name="Link"/>
 
   <!-- selection, current line, search, matching brackets -->
-  <style name="Selection" background="#<%= @base["04"]["hex"] %>"/>
-  <style name="CurrentLine" background="#<%= @base["03"]["hex"] %>"/>
-  <style name="LineNumber" foreground="#<%= @base["03"]["hex"] %>"/>
-  <style name="CurrentLineNumber" foreground="#<%= @base["04"]["hex"] %>" bold="true"/>
-  <style name="SearchResult" background="<%= @base["01"]["hex"] %>"/>
-  <style name="Parentheses" background="#<%= @base["02"]["hex"] %>" />
+  <style name="Selection" background="#<%= @base["03"]["hex"] %>"/>
+  <style name="CurrentLine" background="#<%= @base["04"]["hex"] %>"/>
+  <style name="LineNumber" foreground="#<%= @base["04"]["hex"] %>"/>
+  <style name="CurrentLineNumber" foreground="#<%= @base["03"]["hex"] %>" bold="true"/>
+  <style name="SearchResult" background="<%= @base["06"]["hex"] %>"/>
+  <style name="Parentheses" background="#<%= @base["05"]["hex"] %>" />
 
   <!-- ??? -->
   <style name="SearchScope" foreground="#000000" background="#ffffff"/>
 
   <!-- word (symbol) under cursor: background - color of marking frame, foreground - ignored -->
-  <style name="Occurrences" background="#<%= @base["03"]["hex"] %>"/>
-  <style name="Occurrences.Rename" background="#<%= @base["04"]["hex"] %>"/>
+  <style name="Occurrences" background="#<%= @base["04"]["hex"] %>"/>
+  <style name="Occurrences.Rename" background="#<%= @base["03"]["hex"] %>"/>
   <!-- unused variable: foreground - color of underlining -->
   <style name="Occurrences.Unused" foreground="#<%= @base["09"]["hex"] %>"/>
 
@@ -28,7 +28,7 @@
   <style name="Number" foreground="#<%= @base["09"]["hex"] %>"/>
   <style name="String" foreground="#<%= @base["0B"]["hex"] %>"/>
   <style name="Keyword" foreground="#<%= @base["0E"]["hex"] %>"/>
-  <style name="Operator" foreground="#<%= @base["05"]["hex"] %>"/>
+  <style name="Operator" foreground="#<%= @base["02"]["hex"] %>"/>
   <style name="Preprocessor" foreground="#<%= @base["0D"]["hex"] %>"/>
   <style name="Label" foreground="#<%= @base["08"]["hex"] %>"/>
 
@@ -40,21 +40,21 @@
   <style name="VirtualMethod" foreground="#<%= @base["0D"]["hex"] %>" italic="true"/>
 
   <!-- variables -->
-  <style name="Field" foreground="#<%= @base["06"]["hex"] %>"/>
-  <style name="Local" foreground="#<%= @base["05"]["hex"] %>"/>
-  <style name="Static" foreground="#<%= @base["05"]["hex"] %>"/>
-  <style name="JsScopeVar" foreground="#<%= @base["05"]["hex"] %>" italic="true"/>
-  <style name="JsImportVar" foreground="#<%= @base["05"]["hex"] %>" italic="true"/>
-  <style name="JsGlobalVar" foreground="#<%= @base["05"]["hex"] %>" italic="true"/>
+  <style name="Field" foreground="#<%= @base["01"]["hex"] %>"/>
+  <style name="Local" foreground="#<%= @base["02"]["hex"] %>"/>
+  <style name="Static" foreground="#<%= @base["02"]["hex"] %>"/>
+  <style name="JsScopeVar" foreground="#<%= @base["02"]["hex"] %>" italic="true"/>
+  <style name="JsImportVar" foreground="#<%= @base["02"]["hex"] %>" italic="true"/>
+  <style name="JsGlobalVar" foreground="#<%= @base["02"]["hex"] %>" italic="true"/>
 
   <!-- whitespace -->
-  <style name="VisualWhitespace" foreground="#<%= @base["02"]["hex"] %>"/>
+  <style name="VisualWhitespace" foreground="#<%= @base["05"]["hex"] %>"/>
 
   <!-- comments -->
-  <style name="Comment" foreground="#<%= @base["03"]["hex"] %>"/>
-  <style name="DisabledCode" foreground="#<%= @base["03"]["hex"] %>"/>
-  <style name="Doxygen.Comment" foreground="#<%= @base["03"]["hex"] %>"/>
-  <style name="Doxygen.Tag" foreground="#<%= @base["03"]["hex"] %>"/>
+  <style name="Comment" foreground="#<%= @base["04"]["hex"] %>"/>
+  <style name="DisabledCode" foreground="#<%= @base["04"]["hex"] %>"/>
+  <style name="Doxygen.Comment" foreground="#<%= @base["04"]["hex"] %>"/>
+  <style name="Doxygen.Tag" foreground="#<%= @base["04"]["hex"] %>"/>
 
   <!-- QML -->
   <style name="QmlTypeId" foreground="#<%= @base["0E"]["hex"] %>"/>
@@ -76,7 +76,7 @@
   <style name="DiffFileLine" foreground="#<%= @base["0E"]["hex"] %>"/>
   <style name="DiffContextLine" foreground="#<%= @base["0D"]["hex"] %>"/>
   <style name="DiffSourceLine" foreground="#<%= @base["0B"]["hex"] %>"/>
-  <style name="DiffSourceChar" foreground="#<%= @base["0A"]["hex"] %>" background="#<%= @base["01"]["hex"] %>"/>
+  <style name="DiffSourceChar" foreground="#<%= @base["0A"]["hex"] %>" background="#<%= @base["06"]["hex"] %>"/>
   <style name="DiffDestLine" foreground="#<%= @base["0B"]["hex"] %>"/>
-  <style name="DiffDestChar" foreground="#<%= @base["0A"]["hex"] %>" background="#<%= @base["01"]["hex"] %>"/>
+  <style name="DiffDestChar" foreground="#<%= @base["0A"]["hex"] %>" background="#<%= @base["06"]["hex"] %>"/>
 </style-scheme>
