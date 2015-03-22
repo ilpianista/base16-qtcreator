@@ -15,8 +15,8 @@
   <style name="SearchResult" background="<%= @base["01"]["hex"] %>"/>
   <style name="Parentheses" background="#<%= @base["02"]["hex"] %>" />
 
-  <!-- ??? -->
-  <style name="SearchScope" foreground="#000000" background="#ffffff"/>
+  <!-- Selection whilst searching in it -->
+  <style name="SearchScope" foreground="#<%= @base["07"]["hex"] %>" background="#<%= @base["03"]["hex"] %>"/>
 
   <!-- word (symbol) under cursor: background - color of marking frame, foreground - ignored -->
   <style name="Occurrences" background="#<%= @base["03"]["hex"] %>"/>
