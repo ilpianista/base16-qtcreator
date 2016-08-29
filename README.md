@@ -1,10 +1,10 @@
 # Base16 for Qt Creator
 
-[Qt Creator][1] styles based on Chris Kempson's [Base16][2] colour scheme.
+[Qt Creator][1] styles based on Chris Kempson's [Base16][2] colour schemes.
 
 ## Installation
 
-Download, [build][3] and copy the styles to `$HOME/.config/QtProject/qtcreator/styles`
+Either build it using a [base16-builder][3] or download the style from the `styles` folder and copy it to `$HOME/.config/QtProject/qtcreator/styles/`
 
 ## License
 
