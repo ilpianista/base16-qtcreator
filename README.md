@@ -6,6 +6,10 @@
 
 Either build it using a [base16-builder][3] or download the style from the `styles` folder and copy it to `$HOME/.config/QtProject/qtcreator/styles/`
 
+## Donate
+
+Donations via [Liberapay](https://liberapay.com/ilpianista) or Bitcoin (1Ph3hFEoQaD4PK6MhL3kBNNh9FZFBfisEH) are always welcomed, _thank you_!
+
 ## License
 
 Copyright (C) 2016 Andrea Scarpino
